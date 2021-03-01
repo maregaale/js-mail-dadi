@@ -1,10 +1,10 @@
-// chiedere mail all'utente
+// richiesta mail all'utente
 
 
 // creazione array mailing-list
 
 
-// controllo appartenenza ad array
+// controllo appartenenza all'array
 
 
 // stampa esito
