@@ -1,0 +1,11 @@
+.wrapper {
+  text-align: center;
+  height: 100vh;
+}
+
+.wrapper p {
+  line-height: 100vh;
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+}

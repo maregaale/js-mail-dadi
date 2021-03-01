@@ -9,7 +9,7 @@ var messaggioPositivo = "La tua mail è nella nostra mailing-list, puoi proceder
 var messaggioNegativo = "La tua mail NON è nella nostra mailing-list, contattaci per informazioni sull'accesso!"
 
 // controllo appartenenza all'array
-var emailValida
+var emailValida;
 
 for (var i = 0; i < mailingList.length; i++) {
 
