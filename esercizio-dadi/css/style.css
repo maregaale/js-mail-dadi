@@ -2,8 +2,13 @@
   text-align: center;
 }
 
+h1 {
+  font-size: 40px;
+}
+
 h2 {
   margin: 80px 0;
+  font-weight: bold;
 }
 
 p {
@@ -11,8 +16,30 @@ p {
   color: red;
 }
 
-#result {
+#n-giocatore {
+  color: blue;
+  font-size: 30px;
+}
+
+#n-computer {
+  color: grey;
+  font-size: 30px;
+}
+
+#win, #lose, #equal {
   margin-top: 50px;
   font-size: 30px;
-  color: red;
+  font-weight: bold;
+}
+
+#win {
+  color: green;
+}
+
+#lose {
+    color: red;
+}
+
+#equal {
+  color: grey;
 }
