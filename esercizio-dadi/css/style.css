@@ -14,6 +14,18 @@ h2 {
 p {
   font-size: 20px;
   color: red;
+  display: none;
+}
+
+.btn {
+  padding: 20px;
+  background-color: orange;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 2px solid orange;
 }
 
 #n-giocatore {
@@ -42,4 +54,19 @@ p {
 
 #equal {
   color: grey;
+}
+
+small {
+  display: none;
+  margin-top: 100px;
+  text-decoration: underline;
+}
+
+/* focus sul bottone */
+.btn:focus {
+  opacity: 0;
+}
+
+.btn:focus ~ p, .btn:focus ~ small {
+  display: block;
 }
